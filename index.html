@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio del Equipo | SOFT-EFSRT</title>
+    <!-- Tailwind CSS vía CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Iconos de FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-100 antialiased selection:bg-blue-600 selection:text-white">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center gap-2">
+                    <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-blue-600 to-cyan-400 flex items-center justify-center font-bold text-white shadow-lg shadow-blue-500/30">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <span class="font-bold text-xl tracking-tight text-white">SOFT-<span class="text-cyan-400">EFSRT</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                    <a href="#equipo" class="hover:text-cyan-400 transition">Equipo</a>
+                    <a href="#sistema" class="hover:text-cyan-400 transition">El Sistema</a>
+                    <a href="#alcance" class="hover:text-cyan-400 transition">Alcance</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section: Nombre del Equipo -->
+    <header class="relative overflow-hidden py-20 sm:py-28 border-b border-slate-800 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-800 via-slate-900 to-slate-900">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="inline-block py-1 px-3 rounded-full bg-blue-500/10 border border-blue-500/20 text-cyan-400 text-xs font-semibold uppercase tracking-wider mb-4">
+                Diseño y Programación Web • IESTP "Andrés Avelino Cáceres Dorregaray"
+            </span>
+            <!-- NOMBRE DEL EQUIPO -->
+            <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-6">
+                Equipo <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-400">CodeCajas Dev</span>
+            </h1>
+            <p class="max-w-2xl mx-auto text-lg text-slate-400 leading-relaxed">
+                Desarrolladores enfocados en crear soluciones web eficientes, modernas y escalables para la gestión académica y administrativa.
+            </p>
+        </div>
+    </header>
+
+    <!-- Sección: Integrantes y Roles (2 Personas) -->
+    <section id="equipo" class="py-20 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-white">Nuestro Equipo de Desarrollo</h2>
+            <p class="text-slate-400 mt-2">Conoce a los integrantes y sus responsabilidades técnicas en el proyecto.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            
+            <!-- INTEGRANTE 1 -->
+            <div class="bg-slate-800/60 border border-slate-700/80 rounded-2xl p-8 hover:border-cyan-500/50 transition duration-300 shadow-xl">
+                <div class="flex flex-col items-center text-center">
+                    <!-- Fotografía Integrante 1 (Reemplaza el src por tu foto, ej: img/cristofer.jpg) -->
+                    <div class="relative mb-6">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80" 
+                             alt="Foto de Cristofer Melgar Rojas" 
+                             class="w-32 h-32 rounded-full object-cover border-4 border-slate-700 shadow-lg">
+                        <span class="absolute bottom-1 right-1 bg-blue-600 text-white text-xs px-2.5 py-1 rounded-full font-semibold shadow">
+                            Dev 01
+                        </span>
+                    </div>
+                    
+                    <h3 class="text-2xl font-bold text-white">Cristofer Melgar Rojas</h3>
+                    
+                    <!-- Rol del Desarrollador -->
+                    <span class="mt-2 inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-cyan-500/10 text-cyan-400 text-sm font-semibold border border-cyan-500/20">
+                        <i class="fa-solid fa-laptop-code"></i> Líder Técnico & Frontend Developer
+                    </span>
+
+                    <p class="mt-4 text-slate-400 text-sm leading-relaxed">
+                        Encargado de la arquitectura de la interfaz de usuario (UI/UX), maquetación responsiva, diseño del Dashboard principal y control de versiones del repositorio en GitHub.
+                    </p>
+
+                    <!-- Stack / Habilidades -->
+                    <div class="mt-6 flex flex-wrap justify-center gap-2">
+                        <span class="text-xs bg-slate-900 text-slate-300 px-3 py-1 rounded-full border border-slate-700">HTML5 / CSS3</span>
+                        <span class="text-xs bg-slate-900 text-slate-300 px-3 py-1 rounded-full border border-slate-700">Tailwind CSS</span>
+                        <span class="text-xs bg-slate-900 text-slate-300 px-3 py-1 rounded-full border border-slate-700">JavaScript</span>
+                        <span class="text-xs bg-slate-900 text-slate-300 px-3 py-1 rounded-full border border-slate-700">Git / GitHub</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- INTEGRANTE 2 -->
+            <div class="bg-slate-800/60 border border-slate-700/80 rounded-2xl p-8 hover:border-blue-500/50 transition duration-300 shadow-xl">
+                <div class="flex flex-col items-center text-center">
+                    <!-- Fotografía Integrante 2 (Reemplaza el src por la foto de tu compañero/a, ej: img/compañero.jpg) -->
+                    <div class="relative mb-6">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80" 
+                             alt="Foto del Integrante 2" 
+                             class="w-32 h-32 rounded-full object-cover border-4 border-slate-700 shadow-lg">
+                        <span class="absolute bottom-1 right-1 bg-cyan-600 text-white text-xs px-2.5 py-1 rounded-full font-semibold shadow">
+                            Dev 02
+                        </span>
+                    </div>
+                    
+                    <h3 class="text-2xl font-bold text-white">Nombre del Integrante 2</h3>
+                    
+                    <!-- Rol del Desarrollador -->
+                    <span class="mt-2 inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-blue-500/10 text-blue-400 text-sm font-semibold border border-blue-500/20">
+                        <i class="fa-solid fa-server"></i> Backend Developer & Base de Datos
+                    </span>
+
+                    <p class="mt-4 text-slate-400 text-sm leading-relaxed">
+                        Responsable de la lógica del servidor, autenticación de usuarios (Login), modelado de la base de datos relacional y desarrollo de los módulos de registro y consultas.
+                    </p>
+
+                    <!-- Stack / Habilidades -->
+                    <div class="mt-6 flex flex-wrap justify-center gap-2">
+                        <span class="text-xs bg-slate-900 text-slate-300 px-3 py-1 rounded-full border border-slate-700">PHP</span>
+                        <span class="text-xs bg-slate-900 text-slate-300 px-3 py-1 rounded-full border border-slate-700">MySQL</span>
+                        <span class="text-xs bg-slate-900 text-slate-300 px-3 py-1 rounded-full border border-slate-700">XAMPP</span>
+                        <span class="text-xs bg-slate-900 text-slate-300 px-3 py-1 rounded-full border border-slate-700">Git / GitHub</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sección: Descripción del Sistema SOFT-EFSRT -->
+    <section id="sistema" class="py-20 bg-slate-800/40 border-y border-slate-800">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7">
+                    <span class="text-cyan-400 font-semibold text-sm uppercase tracking-wider">Sobre el Proyecto</span>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-white mt-2 mb-6">
+                        ¿Qué es el sistema <span class="text-cyan-400">SOFT-EFSRT</span>?
+                    </h2>
+                    <p class="text-slate-300 leading-relaxed mb-4">
+                        <strong>SOFT-EFSRT</strong> (Sistema de Gestión de Experiencias Formativas en Situaciones Reales de Trabajo) es una plataforma web diseñada para automatizar, organizar y supervisar el proceso de prácticas preprofesionales de los estudiantes técnicos.
+                    </p>
+                    <p class="text-slate-400 leading-relaxed">
+                        El sistema centraliza la información entre estudiantes, docentes supervisores y coordinación académica, eliminando el papeleo manual y permitiendo un seguimiento transparente del cumplimiento de horas y evaluaciones por módulo formativo.
+                    </p>
+                </div>
+
+                <!-- Tarjeta resumen de características -->
+                <div class="lg:col-span-5 bg-slate-900 border border-slate-700 rounded-2xl p-6 shadow-xl">
+                    <h3 class="text-lg font-bold text-white mb-4 border-b border-slate-800 pb-3">
+                        <i class="fa-solid fa-layer-group text-cyan-400 mr-2"></i> Pilares del Sistema
+                    </h3>
+                    <ul class="space-y-4 text-sm text-slate-300">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-check-circle text-cyan-400 mt-1"></i>
+                            <span><strong>Centralización:</strong> Expediente digital único por cada estudiante y módulo.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-check-circle text-cyan-400 mt-1"></i>
+                            <span><strong>Trazabilidad:</strong> Control exacto de horas acumuladas y estados de aprobación.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-check-circle text-cyan-400 mt-1"></i>
+                            <span><strong>Accesibilidad:</strong> Interfaz web adaptativa accesible desde PC o dispositivos móviles.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Alcance del Proyecto -->
+    <section id="alcance" class="py-20 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <span class="text-blue-400 font-semibold text-sm uppercase tracking-wider">Módulos y Funcionalidades</span>
+            <h2 class="text-3xl font-bold text-white mt-2">Alcance del Proyecto</h2>
+            <p class="text-slate-400 mt-2 max-w-2xl mx-auto">
+                Funcionalidades clave contempladas en el desarrollo actual de la plataforma SOFT-EFSRT.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Alcance 1 -->
+            <div class="bg-slate-800/50 border border-slate-700/70 p-6 rounded-xl hover:bg-slate-800 transition">
+                <div class="w-12 h-12 rounded-lg bg-blue-500/10 text-blue-400 flex items-center justify-center text-xl mb-4">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">1. Autenticación y Roles</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                    Inicio de sesión seguro con control de acceso diferenciado para Administradores, Docentes Supervisores y Estudiantes.
+                </p>
+            </div>
+
+            <!-- Alcance 2 -->
+            <div class="bg-slate-800/50 border border-slate-700/70 p-6 rounded-xl hover:bg-slate-800 transition">
+                <div class="w-12 h-12 rounded-lg bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-xl mb-4">
+                    <i class="fa-solid fa-chart-pie"></i>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">2. Dashboard de Control</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                    Panel principal con indicadores estadísticos en tiempo real sobre estudiantes activos, empresas vinculadas y trámites pendientes.
+                </p>
+            </div>
+
+            <!-- Alcance 3 -->
+            <div class="bg-slate-800/50 border border-slate-700/70 p-6 rounded-xl hover:bg-slate-800 transition">
+                <div class="w-12 h-12 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl mb-4">
+                    <i class="fa-solid fa-building"></i>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">3. Registro de Empresas y Prácticas</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                    Gestión de centros de prácticas, asignación de asesores y vinculación de los estudiantes con sus respectivos módulos.
+                </p>
+            </div>
+
+            <!-- Alcance 4 -->
+            <div class="bg-slate-800/50 border border-slate-700/70 p-6 rounded-xl hover:bg-slate-800 transition">
+                <div class="w-12 h-12 rounded-lg bg-purple-500/10 text-purple-400 flex items-center justify-center text-xl mb-4">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">4. Seguimiento de Horas</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                    Bitácora de actividades diarias y cálculo automático del progreso de horas requeridas por cada unidad didáctica.
+                </p>
+            </div>
+
+            <!-- Alcance 5 -->
+            <div class="bg-slate-800/50 border border-slate-700/70 p-6 rounded-xl hover:bg-slate-800 transition">
+                <div class="w-12 h-12 rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center text-xl mb-4">
+                    <i class="fa-solid fa-file-signature"></i>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">5. Evaluación y Validación</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                    Módulo para que los docentes registren notas de supervisión, observaciones y aprueben la culminación de las EFSRT.
+                </p>
+            </div>
+
+            <!-- Alcance 6 -->
+            <div class="bg-slate-800/50 border border-slate-700/70 p-6 rounded-xl hover:bg-slate-800 transition">
+                <div class="w-12 h-12 rounded-lg bg-rose-500/10 text-rose-400 flex items-center justify-center text-xl mb-4">
+                    <i class="fa-solid fa-file-pdf"></i>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">6. Generación de Reportes</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                    Exportación de fichas de seguimiento, constancias de cumplimiento y listados generales para archivo institucional.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 bg-slate-950 py-8 text-center text-sm text-slate-500">
+        <div class="max-w-6xl mx-auto px-4">
+            <p class="font-medium text-slate-400">Proyecto Colaborativo SOFT-EFSRT • Equipo CodeCajas Dev</p>
+            <p class="mt-1">Desarrollado por Cristofer Melgar Rojas &amp; Integrante 2 — 2026</p>
+        </div>
+    </footer>
+
+</body>
+</html>
